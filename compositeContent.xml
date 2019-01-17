@@ -3,10 +3,7 @@
 <repository name='eMoflon::TIE-GT'
     type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
     version='1.0.0'>
-  <properties size='1'>
-    <property name='p2.timestamp' value='1243822502499'/>
-  </properties>
-  <children size='8'>
+  <children>
     <child location='stable/updatesite'/>
     <child location='http://gervarro.org/external/'/>
     <child location='http://gervarro.org/democles/integration-0.5.0/'/>
@@ -15,6 +12,7 @@
     <child location='https://hallvard.github.io/plantuml/'/>
     <child location='https://download.eclipse.org/emfatic/update'/>
     <child location='https://emoflon.org/emoflon-ibex-democles-updatesite/stable/updatesite/'/>
+    <child location='https://emoflon.org/emoflon-ibex-democles-updatesite/snapshot/updatesite/'/>
     <child location='https://emoflon.org/emoflon-core-updatesite/stable/updatesite/'/>
   </children>
 </repository>

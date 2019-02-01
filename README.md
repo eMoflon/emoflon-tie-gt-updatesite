@@ -1,7 +1,7 @@
 # Update sites for eMoflon::TIE-GT
 
 [![Run Status](https://api.shippable.com/projects/5b0e9b9b0c51f707006bddda/badge?branch=master)]() 
-We test whether eMoflon::TIE-GT can be installed programmatically using Shippable.
+We test whether eMoflon::TIE-GT can be installed programmatically using Shippable (see also [shippable.yml](./shippable.yml)).
 
 * **Stable (with automated dependency resolution)** contains a well-tested and signed update site
 	* This composite update site is ideal if you install TIE-GT for the first time because all dependencies are resolved automatically for you.

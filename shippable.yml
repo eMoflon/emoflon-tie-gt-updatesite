@@ -7,7 +7,7 @@ build:
     pull: true
 
   ci:
-    - repositoryRoot=$(pwd)
+    - repositoryRoot="file://$(pwd)"
     - $ECLIPSE_HOME/eclipse -nosplash -application org.eclipse.equinox.p2.director -repository $repositoryRoot -installIU org.moflon.tie.gt.feature.feature.group -console -consoleLog
    
 integrations:

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeMetadataRepository version='1.0.0'?>
-<repository name='eMoflon::TIE-GT'
+<repository name='eMoflon::TIE-GT Composite Site'
     type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeArtifactRepository'
     version='1.0.0'>
   <children>

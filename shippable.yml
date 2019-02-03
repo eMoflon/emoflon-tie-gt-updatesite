@@ -8,12 +8,7 @@ build:
 
   ci:
     - repositoryRoot="file://$(pwd)"
-    - $ECLIPSE_HOME/eclipse -nosplash -console -consoleLog \
-      -application org.eclipse.equinox.p2.director \
-      -repository $repositoryRoot \
-      -uninstallIU org.moflon.core.feature.feature.group \
-      -installIU org.moflon.core.feature.feature.group \
-      -installIU org.moflon.tie.gt.feature.feature.group
+    - $ECLIPSE_HOME/eclipse -nosplash -console -consoleLog -application org.eclipse.equinox.p2.director -repository $repositoryRoot -uninstallIU org.moflon.core.feature.feature.group -installIU org.moflon.core.feature.feature.group -installIU org.moflon.tie.gt.feature.feature.group
    
 integrations:
   # See http://docs.shippable.com/ci/email-notifications/

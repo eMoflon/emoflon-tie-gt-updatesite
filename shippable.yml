@@ -2,6 +2,8 @@ language: none
 
 build:
   pre_ci_boot:
+    # Image hosted on DockerHub: https://hub.docker.com/r/emoflon/emoflon-ci-from-github/
+    # The image is built from the Dockerfile https://github.com/eMoflon/emoflon-releng/blob/master/Docker/Dockerfile
     image_name: emoflon/emoflon-ci-from-github
     image_tag: latest
     pull: true
@@ -9,7 +11,7 @@ build:
   ci:
     - repositoryRoot="file://$(pwd)"
     # Show Eclipse version information
-    - grep $ECLIPSE_HOME/.eclipseproduct
+    - echo $(grep $ECLIPSE_HOME/.eclipseproduct)
     # We update eMoflon::Core using -uninstallIU and -installIU
     - $ECLIPSE_HOME/eclipse -nosplash -console -consoleLog -application org.eclipse.equinox.p2.director -repository $repositoryRoot -uninstallIU org.moflon.core.feature.feature.group -installIU org.moflon.core.feature.feature.group -installIU org.moflon.tie.gt.feature.feature.group
    

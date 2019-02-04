@@ -8,6 +8,9 @@ build:
 
   ci:
     - repositoryRoot="file://$(pwd)"
+    # Show Eclipse version information
+    - grep $ECLIPSE_HOME/.eclipseproduct
+    # We update eMoflon::Core using -uninstallIU and -installIU
     - $ECLIPSE_HOME/eclipse -nosplash -console -consoleLog -application org.eclipse.equinox.p2.director -repository $repositoryRoot -uninstallIU org.moflon.core.feature.feature.group -installIU org.moflon.core.feature.feature.group -installIU org.moflon.tie.gt.feature.feature.group
    
 integrations:

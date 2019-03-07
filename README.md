@@ -6,7 +6,9 @@ We test whether eMoflon::TIE-GT can be installed programmatically using Shippabl
 * **Stable (with automated dependency resolution, recommended for beginners)** contains a well-tested and signed update site
 	* This composite update site is ideal if you install TIE-GT for the first time because all dependencies are resolved automatically for you.
   * Update site URL: https://emoflon.org/emoflon-tie-gt-updatesite/
-  * Install button: [![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.png)](http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=4488111 "Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client")
+  * Install button:
+  
+<a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=4488111" class="drag" title="Drag to your running Eclipse* workspace."><img typeof="foaf:Image" class="img-responsive" src="https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.png" alt="Drag to your running Eclipse workspace. Requires Eclipse Marketplace Client" /></a>
 
 * **Stable (fast, no dependencies provided)** contains a well-tested and signed update site
   * This update site is useful if you have all dependencies installed in the proper version and just want to update TIE-GT.

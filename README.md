@@ -1,4 +1,4 @@
-# Update sites for eMoflon::TIE-GT
+# Update sites for eMoflon::TIE-GT (Discontinued/Archived)
 
 [![Run Status](https://api.shippable.com/projects/5b0e9b9b0c51f707006bddda/badge?branch=master)]() 
 We test whether eMoflon::TIE-GT can be installed programmatically using Shippable (see also [shippable.yml](./shippable.yml)).
